@@ -18,19 +18,24 @@ public class Lesson_3_2 {
         }
     }*/
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите ваш текст: ");
         String text = scanner.nextLine();
+
         switch (text) {
             case "Hi":
                 System.out.print("Hello ");
                 break;
+
             case "Bye":
                 System.out.print("Good bye ");
                 break;
+
             case "How are you?":
                 System.out.print("How are you doing? ");
                 break;
+
             default:
                 System.out.print("Unknown message ");
         }
